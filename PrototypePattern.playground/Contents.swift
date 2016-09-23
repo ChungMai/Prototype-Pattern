@@ -30,6 +30,8 @@ class Character : AbstractCharacter{
 // Simulate our client
 // This is the card that we will copy
 let raidLeader = Character(name: "Raid Leader", mana: 3, attack: 2, defense: 2)
+
 // Now we use our faceless Manipulator card to clone the raidleader
 let facelessManipulator = raidLeader.clone()
+
 print("\(facelessManipulator.name!, facelessManipulator.mana!,facelessManipulator.attack!, facelessManipulator.defense!)")
